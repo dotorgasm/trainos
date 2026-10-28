@@ -28,7 +28,8 @@
               "kg": 16,
               "reps": 10
             }
-          ]
+          ],
+          "equipment": "1 manubrio · in piedi, senza panca"
         },
         {
           "id": "press",
@@ -51,7 +52,8 @@
               "kg": 10,
               "reps": 10
             }
-          ]
+          ],
+          "equipment": "2 manubri + panca piana"
         },
         {
           "id": "row",
@@ -74,7 +76,8 @@
               "kg": 12,
               "reps": 12
             }
-          ]
+          ],
+          "equipment": "1 manubrio + panca come appoggio"
         },
         {
           "id": "rdl",
@@ -97,7 +100,8 @@
               "kg": 12,
               "reps": 10
             }
-          ]
+          ],
+          "equipment": "2 manubri · in piedi, senza panca"
         },
         {
           "id": "shoulder",
@@ -116,7 +120,8 @@
               "kg": 8,
               "reps": 10
             }
-          ]
+          ],
+          "equipment": "2 manubri · in piedi, senza panca"
         }
       ]
     }
