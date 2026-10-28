@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "name": "Palestra Casa",
+  "workouts": [
+    {
+      "id": "full-body",
+      "name": "Full Body",
+      "description": "Demo · 5 esercizi · circa 40 min",
+      "exercises": [
+        {
+          "id": "squat",
+          "name": "Goblet squat",
+          "muscles": [
+            "Gambe",
+            "Glutei"
+          ],
+          "rest": "90 sec",
+          "sets": [
+            {
+              "kg": 16,
+              "reps": 10
+            },
+            {
+              "kg": 16,
+              "reps": 10
+            },
+            {
+              "kg": 16,
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "id": "press",
+          "name": "Distensioni con manubri",
+          "muscles": [
+            "Petto",
+            "Tricipiti"
+          ],
+          "rest": "90 sec",
+          "sets": [
+            {
+              "kg": 10,
+              "reps": 10
+            },
+            {
+              "kg": 10,
+              "reps": 10
+            },
+            {
+              "kg": 10,
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "id": "row",
+          "name": "Rematore con manubrio",
+          "muscles": [
+            "Dorso",
+            "Bicipiti"
+          ],
+          "rest": "75 sec",
+          "sets": [
+            {
+              "kg": 12,
+              "reps": 12
+            },
+            {
+              "kg": 12,
+              "reps": 12
+            },
+            {
+              "kg": 12,
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "id": "rdl",
+          "name": "Stacco rumeno con manubri",
+          "muscles": [
+            "Femorali",
+            "Glutei"
+          ],
+          "rest": "90 sec",
+          "sets": [
+            {
+              "kg": 12,
+              "reps": 10
+            },
+            {
+              "kg": 12,
+              "reps": 10
+            },
+            {
+              "kg": 12,
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "id": "shoulder",
+          "name": "Spinte sopra la testa",
+          "muscles": [
+            "Spalle",
+            "Tricipiti"
+          ],
+          "rest": "75 sec",
+          "sets": [
+            {
+              "kg": 8,
+              "reps": 10
+            },
+            {
+              "kg": 8,
+              "reps": 10
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
