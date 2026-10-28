@@ -1,0 +1,619 @@
+{
+  "schemaVersion": 1,
+  "name": "Palestra Casa · Training Program 1.0",
+  "cycleWeeks": 4,
+  "intro": "Ciclo 1 · 4 settimane. Settimane 1–2: una serie in meno per esercizio (minimo una). Settimane 3–4: volume delle tabelle. Riferimento RIR 2–3. Nessun aumento automatico dei carichi.",
+  "workouts": [
+    {
+      "id": "p1-full-body",
+      "name": "Full Body",
+      "day": "Lunedì",
+      "description": "50–55 min · serie allenanti, riscaldamento escluso",
+      "exercises": [
+        {
+          "id": "db-bench",
+          "name": "Dumbbell bench press",
+          "equipment": "Panca piana + 2 manubri",
+          "muscles": [
+            "Petto",
+            "Tricipiti"
+          ],
+          "rest": "2–3 min",
+          "repRange": "8–12",
+          "loadLabel": "Kg per manubrio",
+          "guidance": "",
+          "sets": [
+            {
+              "kg": null,
+              "reps": 8
+            },
+            {
+              "kg": null,
+              "reps": 8
+            },
+            {
+              "kg": null,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "id": "single-row",
+          "name": "Rematore unilaterale",
+          "equipment": "1 manubrio + panca come appoggio",
+          "muscles": [
+            "Dorso",
+            "Bicipiti"
+          ],
+          "rest": "2–3 min",
+          "repRange": "8–12",
+          "loadLabel": "Kg per manubrio",
+          "guidance": "Ripetizioni per lato.",
+          "sets": [
+            {
+              "kg": null,
+              "reps": 8
+            },
+            {
+              "kg": null,
+              "reps": 8
+            },
+            {
+              "kg": null,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "id": "goblet",
+          "name": "Goblet squat",
+          "equipment": "1 manubrio tenuto davanti al petto",
+          "muscles": [
+            "Gambe",
+            "Glutei"
+          ],
+          "rest": "2–3 min",
+          "repRange": "10–12",
+          "loadLabel": "Kg del singolo manubrio",
+          "guidance": "",
+          "sets": [
+            {
+              "kg": null,
+              "reps": 10
+            },
+            {
+              "kg": null,
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "id": "lat-pulldown",
+          "name": "Lat pulldown",
+          "equipment": "UNICA · lat machine / cavo alto",
+          "muscles": [
+            "Dorso",
+            "Bicipiti"
+          ],
+          "rest": "2–3 min",
+          "repRange": "8–12",
+          "loadLabel": "Carico UNICA (kg)",
+          "guidance": "",
+          "sets": [
+            {
+              "kg": null,
+              "reps": 8
+            },
+            {
+              "kg": null,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "id": "reverse-crunch",
+          "name": "Reverse crunch",
+          "equipment": "Tappetino · corpo libero",
+          "muscles": [
+            "Addome"
+          ],
+          "rest": "60–90 sec",
+          "repRange": "12–15",
+          "loadLabel": "Zavorra aggiunta (kg)",
+          "guidance": "",
+          "sets": [
+            {
+              "kg": 0,
+              "reps": 12
+            },
+            {
+              "kg": 0,
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "id": "calf",
+          "name": "Calf raises",
+          "equipment": "2 manubri · in piedi",
+          "muscles": [
+            "Polpacci"
+          ],
+          "rest": "60–90 sec",
+          "repRange": "12–20",
+          "loadLabel": "Kg per manubrio",
+          "guidance": "",
+          "sets": [
+            {
+              "kg": null,
+              "reps": 12
+            },
+            {
+              "kg": null,
+              "reps": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p1-legs-shoulders",
+      "name": "Gambe + Spalle",
+      "day": "Martedì",
+      "description": "50–60 min · serie allenanti, riscaldamento escluso",
+      "exercises": [
+        {
+          "id": "bulgarian",
+          "name": "Bulgarian split squat",
+          "equipment": "Panca + 2 manubri",
+          "muscles": [
+            "Gambe",
+            "Glutei"
+          ],
+          "rest": "2–3 min",
+          "repRange": "8–12",
+          "loadLabel": "Kg per manubrio",
+          "guidance": "Ripetizioni per gamba.",
+          "sets": [
+            {
+              "kg": null,
+              "reps": 8
+            },
+            {
+              "kg": null,
+              "reps": 8
+            },
+            {
+              "kg": null,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "id": "rdl",
+          "name": "Romanian deadlift",
+          "equipment": "2 manubri · in piedi",
+          "muscles": [
+            "Femorali",
+            "Glutei"
+          ],
+          "rest": "2–3 min",
+          "repRange": "8–12",
+          "loadLabel": "Kg per manubrio",
+          "guidance": "",
+          "sets": [
+            {
+              "kg": null,
+              "reps": 8
+            },
+            {
+              "kg": null,
+              "reps": 8
+            },
+            {
+              "kg": null,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "id": "leg-extension",
+          "name": "Leg extension",
+          "equipment": "UNICA · modulo leg extension",
+          "muscles": [
+            "Quadricipiti"
+          ],
+          "rest": "60–90 sec",
+          "repRange": "10–15",
+          "loadLabel": "Carico UNICA (kg)",
+          "guidance": "",
+          "sets": [
+            {
+              "kg": null,
+              "reps": 10
+            },
+            {
+              "kg": null,
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "id": "shoulder-press",
+          "name": "Shoulder press",
+          "equipment": "UNICA · configurazione shoulder press da verificare",
+          "muscles": [
+            "Spalle",
+            "Tricipiti"
+          ],
+          "rest": "90–150 sec",
+          "repRange": "8–12",
+          "loadLabel": "Carico UNICA (kg)",
+          "guidance": "Verifica la configurazione prevista dal manuale della tua UNICA.",
+          "sets": [
+            {
+              "kg": null,
+              "reps": 8
+            },
+            {
+              "kg": null,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "id": "lateral-raise",
+          "name": "Alzate laterali",
+          "equipment": "2 manubri · in piedi",
+          "muscles": [
+            "Spalle"
+          ],
+          "rest": "60–90 sec",
+          "repRange": "12–15",
+          "loadLabel": "Kg per manubrio",
+          "guidance": "Scelta manubri fra le alternative del programma (UNICA / manubri).",
+          "sets": [
+            {
+              "kg": null,
+              "reps": 12
+            },
+            {
+              "kg": null,
+              "reps": 12
+            }
+          ]
+        },
+        {
+          "id": "reverse-fly",
+          "name": "Croci inverse",
+          "equipment": "UNICA · configurazione da verificare",
+          "muscles": [
+            "Spalle",
+            "Dorso"
+          ],
+          "rest": "60–90 sec",
+          "repRange": "12–15",
+          "loadLabel": "Carico UNICA (kg)",
+          "guidance": "Movimento presente nel piano: configurazione e accessori UNICA ancora da verificare. Non improvvisare un montaggio.",
+          "sets": [
+            {
+              "kg": null,
+              "reps": 12
+            },
+            {
+              "kg": null,
+              "reps": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p1-chest-triceps",
+      "name": "Petto + Tricipiti",
+      "day": "Mercoledì",
+      "description": "45–55 min · serie allenanti, riscaldamento escluso",
+      "exercises": [
+        {
+          "id": "chest-press",
+          "name": "Chest press",
+          "equipment": "UNICA · chest press",
+          "muscles": [
+            "Petto",
+            "Tricipiti"
+          ],
+          "rest": "2–3 min",
+          "repRange": "8–12",
+          "loadLabel": "Carico UNICA (kg)",
+          "guidance": "",
+          "sets": [
+            {
+              "kg": null,
+              "reps": 8
+            },
+            {
+              "kg": null,
+              "reps": 8
+            },
+            {
+              "kg": null,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "id": "incline-press",
+          "name": "Incline dumbbell press",
+          "equipment": "Panca inclinabile + 2 manubri",
+          "muscles": [
+            "Petto",
+            "Tricipiti"
+          ],
+          "rest": "2–3 min",
+          "repRange": "8–12",
+          "loadLabel": "Kg per manubrio",
+          "guidance": "",
+          "sets": [
+            {
+              "kg": null,
+              "reps": 8
+            },
+            {
+              "kg": null,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "id": "dips",
+          "name": "Dips",
+          "equipment": "Lebert · corpo libero",
+          "muscles": [
+            "Petto",
+            "Tricipiti"
+          ],
+          "rest": "90–150 sec",
+          "repRange": "6–12",
+          "loadLabel": "Zavorra aggiunta (kg)",
+          "guidance": "Inizio senza zavorra; variante da adattare al livello.",
+          "sets": [
+            {
+              "kg": 0,
+              "reps": 6
+            },
+            {
+              "kg": 0,
+              "reps": 6
+            }
+          ]
+        },
+        {
+          "id": "pushdown",
+          "name": "Rope triceps pushdown",
+          "equipment": "UNICA · cavo alto + corda",
+          "muscles": [
+            "Tricipiti"
+          ],
+          "rest": "60–90 sec",
+          "repRange": "10–15",
+          "loadLabel": "Carico UNICA (kg)",
+          "guidance": "",
+          "sets": [
+            {
+              "kg": null,
+              "reps": 10
+            },
+            {
+              "kg": null,
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "id": "overhead-triceps",
+          "name": "Overhead triceps extension",
+          "equipment": "UNICA + corda · configurazione da verificare",
+          "muscles": [
+            "Tricipiti"
+          ],
+          "rest": "60–90 sec",
+          "repRange": "10–15",
+          "loadLabel": "Carico UNICA (kg)",
+          "guidance": "Verifica il percorso del cavo e la configurazione sul manuale UNICA.",
+          "sets": [
+            {
+              "kg": null,
+              "reps": 10
+            },
+            {
+              "kg": null,
+              "reps": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p1-back-biceps",
+      "name": "Schiena + Bicipiti",
+      "day": "Giovedì",
+      "description": "45–55 min · serie allenanti, riscaldamento escluso",
+      "exercises": [
+        {
+          "id": "pullups",
+          "name": "Pull-ups / chin-ups",
+          "equipment": "PowerTower · barra trazioni",
+          "muscles": [
+            "Dorso",
+            "Bicipiti"
+          ],
+          "rest": "2–3 min",
+          "repRange": "4–10",
+          "loadLabel": "Zavorra aggiunta (kg)",
+          "guidance": "Prima serie come benchmark. Scegli una presa e annotala per rendere confrontabili le sessioni.",
+          "sets": [
+            {
+              "kg": 0,
+              "reps": 4
+            },
+            {
+              "kg": 0,
+              "reps": 4
+            },
+            {
+              "kg": 0,
+              "reps": 4
+            }
+          ]
+        },
+        {
+          "id": "wide-row",
+          "name": "Rematore presa larga",
+          "equipment": "UNICA · rematore, presa larga da verificare",
+          "muscles": [
+            "Dorso",
+            "Bicipiti"
+          ],
+          "rest": "2–3 min",
+          "repRange": "8–12",
+          "loadLabel": "Carico UNICA (kg)",
+          "guidance": "",
+          "sets": [
+            {
+              "kg": null,
+              "reps": 8
+            },
+            {
+              "kg": null,
+              "reps": 8
+            },
+            {
+              "kg": null,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "id": "straight-pulldown",
+          "name": "Pull down braccia tese",
+          "equipment": "UNICA · cavo alto",
+          "muscles": [
+            "Dorso"
+          ],
+          "rest": "60–90 sec",
+          "repRange": "10–15",
+          "loadLabel": "Carico UNICA (kg)",
+          "guidance": "",
+          "sets": [
+            {
+              "kg": null,
+              "reps": 10
+            },
+            {
+              "kg": null,
+              "reps": 10
+            }
+          ]
+        },
+        {
+          "id": "curl",
+          "name": "Curl bicipiti",
+          "equipment": "UNICA · cavo basso",
+          "muscles": [
+            "Bicipiti"
+          ],
+          "rest": "60–90 sec",
+          "repRange": "8–12",
+          "loadLabel": "Carico UNICA (kg)",
+          "guidance": "",
+          "sets": [
+            {
+              "kg": null,
+              "reps": 8
+            },
+            {
+              "kg": null,
+              "reps": 8
+            }
+          ]
+        },
+        {
+          "id": "hammer-curl",
+          "name": "Hammer curl",
+          "equipment": "2 manubri · presa neutra",
+          "muscles": [
+            "Bicipiti",
+            "Avambracci"
+          ],
+          "rest": "60–90 sec",
+          "repRange": "10–15",
+          "loadLabel": "Kg per manubrio",
+          "guidance": "",
+          "sets": [
+            {
+              "kg": null,
+              "reps": 10
+            },
+            {
+              "kg": null,
+              "reps": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p1-cardio",
+      "name": "Cardio base",
+      "day": "Venerdì / Sabato",
+      "description": "40 min · serie allenanti, riscaldamento escluso",
+      "exercises": [
+        {
+          "id": "warmup",
+          "name": "Riscaldamento · camminata",
+          "type": "cardio",
+          "equipment": "Tapis roulant",
+          "muscles": [
+            "Cardio"
+          ],
+          "guidance": "",
+          "sets": [
+            {
+              "minutes": 5
+            }
+          ]
+        },
+        {
+          "id": "main",
+          "name": "Camminata sostenuta / corsa leggera",
+          "type": "cardio",
+          "equipment": "Tapis roulant",
+          "muscles": [
+            "Cardio"
+          ],
+          "guidance": "Intensità moderata: riesci a parlare, ma non a cantare comodamente.",
+          "sets": [
+            {
+              "minutes": 30
+            }
+          ]
+        },
+        {
+          "id": "cooldown",
+          "name": "Defaticamento",
+          "type": "cardio",
+          "equipment": "Tapis roulant",
+          "muscles": [
+            "Cardio"
+          ],
+          "guidance": "",
+          "sets": [
+            {
+              "minutes": 5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

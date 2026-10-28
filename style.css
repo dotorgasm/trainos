@@ -10,3 +10,5 @@ p{color:#aaa99f}.eyebrow{color:#a6a79e}.info{background:#1d1b17;color:#d3c9bb}
 .exercise .equipment{font-size:14px;font-weight:600;color:#f1a283;margin:10px 0 6px;line-height:1.5}
 .primary{color:#111}.file{color:#f1f0eb}a{color:#f49b7d}.logo{color:inherit}
 #toast{background:#efeee8;color:#171815}.fine{color:#aaa99f}
+
+.set-grid.cardio{grid-template-columns:60px 1fr 48px}.rir-label{display:flex;align-items:center;justify-content:space-between;margin:18px 0 6px;font-size:12px;color:#b9b9ae}.rir-label input{width:70px;min-height:44px;padding:10px;border:1px solid var(--line);border-radius:6px;background:#20211e;color:#f1f0eb;text-align:center}.exercise .load-label{font-size:11px;color:#c3c3b9;margin:12px 0 6px}.exercise .guidance{border-left:2px solid #977451;padding-left:10px;color:#c7baa9}.select-label select{min-width:0;flex:1}#load-program-top{margin-bottom:18px;width:100%}h1{overflow-wrap:anywhere}
